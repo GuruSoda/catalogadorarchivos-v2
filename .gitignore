@@ -62,8 +62,8 @@ Testing/
 .cache/
 
 # cache de compilacion
-src/build/
+src/build/*/*
+!*.filters
 !*.sln
 !*.user
 !*.vcxproj
-!*.filters
